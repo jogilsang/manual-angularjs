@@ -33,3 +33,10 @@ app.controller('myctrl', function($scope){
 </body>
 </html>
 ```
+
+- ng-init :
+```html
+<div ng-app="" ng-init="quantity=1;cost=5">
+<div ng-app="" ng-init="person={firstName='john', lastName='Doe'}"></div>
+<div ng-app="" ng-init="points=[1,15,19,2,40]"></div>
+```
